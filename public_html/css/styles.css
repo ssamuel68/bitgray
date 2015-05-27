@@ -1,0 +1,99 @@
+/* 
+    Created on : 26/05/2015, 09:20:14 PM
+    Author     : Samuel Sosa
+*/
+body{
+    width: 100%;
+    height: 600px;
+    background-color: greenyellow;
+    text-align: center;
+    font-size: 3em;
+}
+
+.container{width: 90%; height: 90%; background-color: graytext;margin: 0 auto;}
+
+.one{float: left;width: 60%;height: 94%;background-color: palevioletred;margin: 2%;}
+
+.wrapper{
+    float: left;
+    width: 32%;
+    background-color: steelblue;
+    height: 94%;margin: 2% 2%;
+
+
+}
+
+.two,.three{
+    width: 98%;
+    height: 49%;
+    margin: 1% 1%;
+    background-color: yellowgreen;
+}
+
+
+
+@media screen and (min-width : 1024px){
+
+    body {
+        font-size: 5em;}
+    .one{
+        width: 80%;
+        height: 45%;
+        margin: 0 5% 2% 5%;
+    }
+
+    .wrapper{
+        height: 45%;
+        width: 80%;
+        margin: 0 5% 0 5%;
+
+    }
+
+    .two{
+        float: left;
+        height: 85%;
+        margin: 5% 20% 0 0;
+        width: 35%;
+    }
+    .three{
+        float: left;
+        height: 95%;
+        width: 35%;
+        background-color: goldenrod;
+    }
+
+}
+
+
+@media screen and (min-device-width : 240px) and (max-device-width : 480px) {
+
+    body {
+        font-size: 1em;
+    }
+
+    .one{
+        width: 96%;
+        height: 25%;
+        display: block;
+        margin: 2%;
+    }
+
+    .wrapper{
+        height: 70%;
+        width: 98%;
+        margin: 2%;}
+    .two{
+        display: block;
+        height: 49%;
+        margin: 0 auto;
+        width: 50%;
+    }
+    .three{
+        display: block;
+        margin: 2% auto;
+        height: 48%;
+        width: 35%;
+        background-color: hotpink;
+    }
+
+}
